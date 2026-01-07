@@ -49,7 +49,7 @@ void loop() {
   drawBoard();
 }
 
-// ---------------- DRAWING ----------------
+
 
 void drawBoard() {
   u8g2.clearBuffer();
@@ -91,7 +91,7 @@ void drawWinScreen() {
   u8g2.sendBuffer();
 }
 
-// ---------------- LOGIC ----------------
+
 
 bool checkWin() {
   int wins[8][3] = {
